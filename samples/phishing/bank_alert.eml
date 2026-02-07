@@ -1,0 +1,101 @@
+MIME-Version: 1.0
+Date: Tue, 20 Feb 2024 14:30:00 -0600
+From: "Chase Bank Security" <alerts@chase-secure-banking.xyz>
+To: customer@example.com
+Subject: [ALERT] Unauthorized Transaction Detected - Immediate Action Required
+Reply-To: verify@chase-banking-secure.ml
+Return-Path: <noreply@chase-secure-banking.xyz>
+Content-Type: multipart/mixed; boundary="mixed_boundary"
+X-Mailer: PHPMailer 5.2.0
+Authentication-Results: mx.example.com; spf=softfail; dkim=fail; dmarc=none
+
+--mixed_boundary
+Content-Type: multipart/alternative; boundary="alt_boundary"
+
+--alt_boundary
+Content-Type: text/plain; charset="UTF-8"
+
+SECURITY ALERT - Chase Bank
+
+Dear Customer,
+
+We has detected an unauthorized transaction on your Chase account:
+
+Transaction Details:
+- Amount: $2,847.00
+- Merchant: Unknown Overseas Retailer
+- Location: Lagos, Nigeria
+- Date: Today
+
+If you did NOT authorize this transaction, you must act immediately!
+
+Click the link below to secure your account:
+http://192.168.1.100/chase-verify/login.php
+
+Failure to verify within 12 hours will result in permanent account suspension.
+
+To verify, please confirm:
+* Account Number
+* Routing Number
+* PIN
+* Mother's maiden name
+* Date of birth
+
+This is your FINAL WARNING.
+
+Chase Bank Security Team
+Do the needful immediately.
+
+--alt_boundary
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html>
+<html>
+<body style="font-family: Arial;">
+<div style="border: 2px solid red; padding: 20px;">
+<h2 style="color: red;">SECURITY ALERT - Chase Bank</h2>
+
+<p>Dear Customer,</p>
+
+<p>We has detected an <strong>unauthorized transaction</strong> on your Chase account:</p>
+
+<table border="1" cellpadding="10">
+<tr><td>Amount:</td><td style="color: red;"><strong>$2,847.00</strong></td></tr>
+<tr><td>Merchant:</td><td>Unknown Overseas Retailer</td></tr>
+<tr><td>Location:</td><td>Lagos, Nigeria</td></tr>
+<tr><td>Date:</td><td>Today</td></tr>
+</table>
+
+<p>If you did <strong>NOT</strong> authorize this transaction, you must act immediately!</p>
+
+<p><a href="http://192.168.1.100/chase-verify/login.php">CLICK HERE TO SECURE YOUR ACCOUNT</a></p>
+
+<p style="color: red;"><strong>Failure to verify within 12 hours will result in permanent account suspension.</strong></p>
+
+<p>To verify, please confirm:</p>
+<ul>
+<li>Account Number</li>
+<li>Routing Number</li>
+<li>PIN</li>
+<li>Mother's maiden name</li>
+<li>Date of birth</li>
+</ul>
+
+<p style="font-size: 20px; color: red;"><strong>This is your FINAL WARNING.</strong></p>
+
+<p>Chase Bank Security Team<br>
+<em>Do the needful immediately.</em></p>
+</div>
+</body>
+</html>
+
+--alt_boundary--
+
+--mixed_boundary
+Content-Type: application/vnd.ms-excel.sheet.macroEnabled.12
+Content-Disposition: attachment; filename="Transaction_Details.xlsm"
+Content-Transfer-Encoding: base64
+
+UEsDBBQAAAAIAFakeW9pY2Vfc2FtcGxlX2NvbnRlbnRfZm9yX3Rlc3RpbmcAAAAAAAAAAAA=
+
+--mixed_boundary--

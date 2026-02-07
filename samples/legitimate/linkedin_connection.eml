@@ -1,0 +1,61 @@
+MIME-Version: 1.0
+Date: Fri, 22 Mar 2024 08:00:00 -0700
+From: "LinkedIn" <messages-noreply@linkedin.com>
+To: professional@example.com
+Subject: Jane Smith has accepted your invitation
+Return-Path: <bounce-csp-prod@linkedin.com>
+Content-Type: text/html; charset="UTF-8"
+List-Unsubscribe: <https://www.linkedin.com/e/v2?e=1a2b3c4d&t=uns>
+X-LinkedIn-Class: PFML-INMAIL
+Authentication-Results: mx.example.com; spf=pass; dkim=pass; dmarc=pass
+
+<!DOCTYPE html>
+<html>
+<head><title>LinkedIn</title></head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f3f2ef;">
+<div style="max-width: 600px; margin: 0 auto; background: white;">
+
+<div style="background: #0a66c2; padding: 16px 24px;">
+<img src="https://static.licdn.com/sc/h/95o6rrc5ws6mlw6wqzy0xgj7y" alt="LinkedIn" height="21">
+</div>
+
+<div style="padding: 24px;">
+
+<p style="font-size: 16px; color: #000;">Hi John,</p>
+
+<p style="font-size: 16px; color: #000; margin-bottom: 24px;">
+<strong>Jane Smith</strong> has accepted your invitation. You're now connected!
+</p>
+
+<div style="display: flex; align-items: center; margin-bottom: 24px;">
+<img src="https://media.licdn.com/dms/image/placeholder" alt="Jane Smith" style="width: 72px; height: 72px; border-radius: 50%; margin-right: 16px;">
+<div>
+<p style="margin: 0; font-size: 16px; font-weight: bold;">Jane Smith</p>
+<p style="margin: 4px 0 0 0; color: #666; font-size: 14px;">Senior Software Engineer at Tech Company</p>
+<p style="margin: 4px 0 0 0; color: #666; font-size: 14px;">San Francisco Bay Area</p>
+</div>
+</div>
+
+<a href="https://www.linkedin.com/in/janesmith" style="display: inline-block; background: #0a66c2; color: white; padding: 10px 24px; text-decoration: none; border-radius: 24px; font-weight: bold;">View profile</a>
+
+<p style="margin-top: 24px; color: #666; font-size: 14px;">
+Say hi to start a conversation with Jane.
+</p>
+
+</div>
+
+<div style="background: #f3f2ef; padding: 16px 24px; font-size: 12px; color: #666;">
+<p>You received this email because you have a LinkedIn account.</p>
+<p>
+<a href="https://www.linkedin.com/e/v2?e=1a2b3c4d&t=uns" style="color: #0a66c2;">Unsubscribe</a> |
+<a href="https://www.linkedin.com/help/linkedin" style="color: #0a66c2;">Help</a>
+</p>
+<p style="margin-top: 16px;">
+LinkedIn Corporation, 1000 W. Maude Ave., Sunnyvale, CA 94085
+</p>
+<p>LinkedIn and the LinkedIn logo are registered trademarks of LinkedIn.</p>
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+MIME-Version: 1.0
+Date: Thu, 14 Mar 2024 16:45:00 -0700
+From: "Amazon Customer Rewards" <rewards@amaz0n-prizes.pw>
+To: lucky_winner@example.com
+Subject: Congratulations!!! You've Won a $1000 Amazon Gift Card!!!!
+Reply-To: claim@amazon-winner-rewards.cf
+Return-Path: <noreply@amaz0n-prizes.pw>
+Content-Type: text/html; charset="UTF-8"
+X-Spam-Flag: YES
+Authentication-Results: mx.example.com; spf=fail; dkim=fail; dmarc=fail
+
+<!DOCTYPE html>
+<html>
+<head><title>Amazon Prize Winner</title></head>
+<body style="font-family: Arial; background-color: #f0f0f0;">
+<div style="max-width: 600px; margin: 0 auto; background: white; padding: 20px;">
+
+<h1 style="color: #ff9900; text-align: center;">CONGRATULATIONS!!!</h1>
+<h2 style="text-align: center;">YOU ARE OUR LUCKY WINNER!!!!!</h2>
+
+<p style="font-size: 24px; color: green; text-align: center;">
+You have been selected to receive a <strong>$1,000 Amazon Gift Card!</strong>
+</p>
+
+<p>Dear Lucky Customer,</p>
+
+<p>Your email address was randomly selected from millions of Amazon customers for our EXCLUSIVE REWARDS PROGRAM!!!</p>
+
+<p>To claim your prize, you MUST act within the next 24 HOURS or your reward will be given to another customer!</p>
+
+<div style="text-align: center; margin: 30px;">
+<a href="http://amaz0n-claim-prize.tk/winner?id=12345&email=lucky_winner@example.com"
+   style="background-color: #ff9900; color: white; padding: 15px 30px; text-decoration: none; font-size: 20px;">
+   CLAIM YOUR $1,000 NOW!!!
+</a>
+</div>
+
+<p>To verify your identity and receive your gift card, please provide:</p>
+<ul>
+<li>Full Name</li>
+<li>Home Address</li>
+<li>Phone Number</li>
+<li>Credit Card Number (for identity verification only - you will NOT be charged)</li>
+<li>Social Security Number</li>
+</ul>
+
+<p style="color: red;"><strong>HURRY! This offer expires in 24 hours!!!</strong></p>
+
+<p>DO NOT share this email with anyone - this exclusive offer is for YOU only!</p>
+
+<hr>
+<p style="font-size: 10px; color: gray;">
+This email was sent by Amazon Customer Rewards Program.
+You are receiving this because you are a valued Amazon customer.
+To unsubscribe, click <a href="http://amaz0n-claim-prize.tk/unsubscribe">here</a>.
+</p>
+
+</div>
+</body>
+</html>

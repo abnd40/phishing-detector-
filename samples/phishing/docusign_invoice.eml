@@ -1,0 +1,75 @@
+MIME-Version: 1.0
+Date: Fri, 22 Mar 2024 11:00:00 -0400
+From: "DocuSign" <docsign@d0cusign-secure.com>
+To: finance@company.com
+Subject: Invoice #INV-2024-8847 Ready for Your Signature
+Reply-To: noreply@docusign-documents.work
+Return-Path: <bounce@d0cusign-secure.com>
+Content-Type: multipart/mixed; boundary="docusign_boundary"
+Authentication-Results: mx.example.com; spf=softfail; dkim=none; dmarc=fail
+
+--docusign_boundary
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html>
+<html>
+<body style="font-family: Arial;">
+<div style="max-width: 600px; margin: 0 auto;">
+
+<img src="http://d0cusign-secure.com/logo.png" alt="DocuSign" style="width: 150px;">
+
+<h2>Document Ready for Signature</h2>
+
+<p>Hello,</p>
+
+<p>You have received a document that requires your signature.</p>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<tr style="background: #f5f5f5;">
+<td style="padding: 10px;"><strong>Document:</strong></td>
+<td style="padding: 10px;">Invoice #INV-2024-8847</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>From:</strong></td>
+<td style="padding: 10px;">Accounts Receivable Department</td>
+</tr>
+<tr style="background: #f5f5f5;">
+<td style="padding: 10px;"><strong>Amount:</strong></td>
+<td style="padding: 10px;">$14,750.00</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>Due Date:</strong></td>
+<td style="padding: 10px;">Immediate</td>
+</tr>
+</table>
+
+<p>This invoice requires immediate attention. Please review and sign the attached document.</p>
+
+<div style="text-align: center; margin: 30px 0;">
+<a href="http://cutt.ly/fake-docusign-link"
+   style="background-color: #ffc107; color: black; padding: 12px 24px; text-decoration: none;">
+   REVIEW DOCUMENT
+</a>
+</div>
+
+<p style="color: gray; font-size: 12px;">
+If the button doesn't work, copy and paste this link: http://d0cusign-secure.com/sign/doc?id=XYZ123
+</p>
+
+<hr>
+<p style="font-size: 11px; color: gray;">
+Do Not Share This Email - This email contains a secure link to DocuSign.
+</p>
+
+</div>
+</body>
+</html>
+
+--docusign_boundary
+Content-Type: application/zip
+Content-Disposition: attachment; filename="Invoice_INV-2024-8847.zip"
+Content-Transfer-Encoding: base64
+
+UEsDBBQAAAAIAFakeXRlc3RfY29udGVudF9mb3Jfc2FtcGxlX3B1cnBvc2VzAAAAAAAA
+
+--docusign_boundary--

@@ -1,0 +1,76 @@
+MIME-Version: 1.0
+Date: Thu, 21 Mar 2024 16:45:00 -0700
+From: "PayPal" <service@paypal.com>
+To: user@example.com
+Subject: Receipt for your payment to Steam Games
+Return-Path: <ppreply-5a42b7c8d9e0f@paypal.com>
+Content-Type: text/html; charset="UTF-8"
+List-Unsubscribe: <https://www.paypal.com/myaccount/settings/notifications>
+X-PP-Email-Token: XXXYYYZZZ123
+Authentication-Results: mx.example.com; spf=pass; dkim=pass; dmarc=pass
+
+<!DOCTYPE html>
+<html>
+<head><title>PayPal Receipt</title></head>
+<body style="font-family: Arial, sans-serif; background: #f5f5f5; padding: 20px;">
+<div style="max-width: 600px; margin: 0 auto; background: white; padding: 20px;">
+
+<div style="text-align: center; border-bottom: 1px solid #ddd; padding-bottom: 20px;">
+<img src="https://www.paypalobjects.com/digitalassets/c/website/logo/full-text/pp_fc_hl.svg" alt="PayPal" height="25">
+</div>
+
+<div style="padding: 20px 0;">
+<h2 style="color: #003087;">You sent a payment</h2>
+
+<p>Hello John,</p>
+
+<p>You sent a payment of <strong>$29.99 USD</strong> to Steam Games (steampowered.com).</p>
+
+<table style="width: 100%; margin: 20px 0; border-collapse: collapse;">
+<tr style="background: #f7f7f7;">
+<td style="padding: 12px; border: 1px solid #ddd;"><strong>Transaction ID</strong></td>
+<td style="padding: 12px; border: 1px solid #ddd;">5XT12345AB678901C</td>
+</tr>
+<tr>
+<td style="padding: 12px; border: 1px solid #ddd;"><strong>Transaction date</strong></td>
+<td style="padding: 12px; border: 1px solid #ddd;">March 21, 2024</td>
+</tr>
+<tr style="background: #f7f7f7;">
+<td style="padding: 12px; border: 1px solid #ddd;"><strong>Payment method</strong></td>
+<td style="padding: 12px; border: 1px solid #ddd;">PayPal Balance</td>
+</tr>
+</table>
+
+<h3>Purchase details</h3>
+<table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+<tr style="border-bottom: 1px solid #ddd;">
+<td style="padding: 10px 0;">Digital Game Purchase</td>
+<td style="text-align: right;">$29.99 USD</td>
+</tr>
+<tr style="border-top: 2px solid #333;">
+<td style="padding: 10px 0;"><strong>Total</strong></td>
+<td style="text-align: right;"><strong>$29.99 USD</strong></td>
+</tr>
+</table>
+
+<p>It may take a few moments for this transaction to appear in your account.</p>
+
+<p><a href="https://www.paypal.com/activity/payment/5XT12345AB678901C" style="color: #0070ba;">View transaction details</a></p>
+
+</div>
+
+<div style="border-top: 1px solid #ddd; padding-top: 20px; font-size: 12px; color: #666;">
+<p>Questions? Visit our <a href="https://www.paypal.com/helpcentre" style="color: #0070ba;">Help Centre</a>.</p>
+
+<p>Please do not reply to this email. This mailbox is not monitored and you will not receive a response.</p>
+
+<p style="margin-top: 20px;">
+PayPal, Inc.<br>
+2211 North First Street<br>
+San Jose, CA 95131
+</p>
+</div>
+
+</div>
+</body>
+</html>

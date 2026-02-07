@@ -1,0 +1,42 @@
+MIME-Version: 1.0
+Date: Mon, 18 Mar 2024 10:30:00 -0700
+From: "GitHub" <noreply@github.com>
+To: developer@example.com
+Subject: [repo/project] New pull request: Fix memory leak in cache module (#142)
+Reply-To: reply+AHTK5Z@reply.github.com
+Return-Path: <noreply@github.com>
+Content-Type: text/plain; charset="UTF-8"
+List-Unsubscribe: <https://github.com/settings/notifications>
+X-GitHub-Sender: contributor
+X-GitHub-Reason: subscribed
+Authentication-Results: mx.example.com; spf=pass; dkim=pass; dmarc=pass
+
+@contributor opened this pull request:
+
+Fix memory leak in cache module (#142)
+
+**Description**
+This PR fixes the memory leak issue reported in #138. The cache was not properly releasing references when items expired.
+
+**Changes**
+- Added proper cleanup in CacheManager.evict()
+- Implemented WeakReference for cache entries
+- Added unit tests for eviction scenarios
+
+**Testing**
+- All existing tests pass
+- Added 3 new tests for edge cases
+- Manual testing shows memory usage is now stable
+
+---
+
+View it on GitHub:
+https://github.com/repo/project/pull/142
+
+You are receiving this because you are subscribed to this repository.
+
+To unsubscribe from this thread, visit:
+https://github.com/notifications/unsubscribe-auth/EXAMPLE123
+
+To unsubscribe from all notifications:
+https://github.com/settings/notifications

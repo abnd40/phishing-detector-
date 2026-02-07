@@ -1,0 +1,74 @@
+MIME-Version: 1.0
+Date: Mon, 15 Jan 2024 09:23:45 -0500
+From: "PayPal Security Team" <security@paypa1-verify.com>
+To: victim@example.com
+Subject: URGENT: Your PayPal Account Has Been Suspended!
+Reply-To: support@secure-paypal-verify.tk
+Return-Path: <bounce@paypa1-verify.com>
+Content-Type: multipart/alternative; boundary="boundary123"
+X-Spam-Score: 8.5
+Authentication-Results: mx.example.com; spf=fail; dkim=none; dmarc=fail
+
+--boundary123
+Content-Type: text/plain; charset="UTF-8"
+
+URGENT NOTICE!!!
+
+Dear Valued Customer,
+
+We have detected suspicious activity on your PayPal account. Your account has been TEMPORARILY SUSPENDED due to unauthorized access attempts.
+
+You MUST verify your identity within 24 hours or your account will be PERMANENTLY CLOSED and all funds will be forfeited.
+
+CLICK HERE IMMEDIATELY to verify your account: http://paypa1-secure-login.tk/verify?user=victim
+
+You will need to provide:
+- Your full name
+- Social Security Number
+- Credit card information
+- Bank account details
+- Password
+
+Failure to comply will result in legal action.
+
+Act NOW to protect your account!
+
+PayPal Security Team
+This is an automated message. Do not reply.
+
+--boundary123
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html>
+<html>
+<head><title>PayPal Security Notice</title></head>
+<body>
+<h1 style="color: red;">URGENT NOTICE!!!</h1>
+
+<p>Dear Valued Customer,</p>
+
+<p>We have detected <strong>suspicious activity</strong> on your PayPal account. Your account has been <span style="color: red; font-weight: bold;">TEMPORARILY SUSPENDED</span> due to unauthorized access attempts.</p>
+
+<p>You <strong>MUST</strong> verify your identity within 24 hours or your account will be <span style="color: red;">PERMANENTLY CLOSED</span> and all funds will be forfeited.</p>
+
+<p><a href="http://paypa1-secure-login.tk/verify?user=victim">https://www.paypal.com/verify</a></p>
+
+<p>You will need to provide:</p>
+<ul>
+<li>Your full name</li>
+<li>Social Security Number</li>
+<li>Credit card information</li>
+<li>Bank account details</li>
+<li>Password</li>
+</ul>
+
+<p><strong>Failure to comply will result in legal action.</strong></p>
+
+<p style="color: red; font-size: 18px;">Act NOW to protect your account!</p>
+
+<p>PayPal Security Team<br>
+<em>This is an automated message. Do not reply.</em></p>
+</body>
+</html>
+
+--boundary123--
